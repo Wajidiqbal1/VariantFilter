@@ -7,8 +7,8 @@
 #' @param zygosity_column The column name for zygosity filtering.
 #' @param zygosity_value The value for zygosity filtering (e.g., "het" or "hom").
 #' @param maf_criteria The criteria for MAF filtering (e.g., "<=0.001").
-#' @param exome_column The column name for exome data. Missing values are replaced with 10.
-#' @param genome_column The column name for genome data. Missing values are replaced with 10.
+#' @param exome_column The column name for exomic allelic frequency in data. Missing values are replaced with 10.
+#' @param genome_column The column name for genomic allelic frequency in data. Missing values are replaced with 10.
 #' @param region_column The column name for region filtering.
 #' @param region_filters A vector of filters for region filtering (e.g., c("exonic")).
 #' @param effect_column The column name for effect filtering.
