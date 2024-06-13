@@ -34,9 +34,9 @@ filter_vcf_tidy(
 
 \item{maf_criteria}{The criteria for MAF filtering (e.g., "<=0.001").}
 
-\item{exome_column}{The column name for exome data. Missing values are replaced with 10.}
+\item{exome_column}{The column name for exomic allelic frequency in data. Missing values are replaced with 10.}
 
-\item{genome_column}{The column name for genome data. Missing values are replaced with 10.}
+\item{genome_column}{The column name for genomic allelic frequency in data. Missing values are replaced with 10.}
 
 \item{region_column}{The column name for region filtering.}
 
